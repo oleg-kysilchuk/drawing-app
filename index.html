@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing App</title>
+<script defer src="bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+<body>
+    <div class="main">
+        <canvas id="canvas"></canvas>
+
+        <div class="tools">
+            <button type="button" class="clear-btn btn" id="clear">Clear</button>
+            <button type="button" class="undo-btn btn" id="undo">Undo</button>
+            <input  type="color" class="color-pick" id="color-pick">
+            <input  type="range" min="1" max="50" class="pen-range" id="range" value="3">
+        </div>
+    </div>
+</body>
+</html>
